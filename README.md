@@ -1,4 +1,4 @@
-# Ironbus (pcie-driver)
+# Ironbus
 
 Ironbus is a Linux kernel driver for QEMU's EDU PCIe device. It maps BAR0, handles MSI and legacy interrupts, does coherent DMA, and exposes a 64-entry submission/completion ring to userspace through ioctl, mmap, and eventfd. A C++17 userspace library, a C ABI shim, and Python ctypes bindings sit on top, and a Jenkins pipeline boots a QEMU VM, loads the driver, and runs the tests.
 
